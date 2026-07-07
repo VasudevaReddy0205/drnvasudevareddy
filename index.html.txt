@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. N Vasudeva Reddy | Science Study Hub</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #F9FAFB;
+}
+
+/* HEADER */
+header {
+    background: #1E3A8A;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav {
+    background: #3B82F6;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    padding: 30px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+button {
+    background: #10B981;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* IMAGE */
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+</style>
+
+<script>
+function showAnswer(ans) {
+    alert("Correct Answer: " + ans);
+}
+</script>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Dr. N Vasudeva Reddy</h1>
+    <p>Science Study Hub | MCQs | Notes | Updates</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#mcq">MCQs</a>
+    <a href="#notes">Notes</a>
+    <a href="#research">Research</a>
+    <a href="#updates">Updates</a>
+    <a href="#quiz">Daily Quiz</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#videos">Videos</a>
+    <a href="#downloads">Downloads</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+<div class="box">
+<h2>Welcome</h2>
+<p>This platform provides science MCQs, notes, research insights, and updates for students and professionals.</p>
+</div>
+</section>
+
+<!-- MCQ -->
+<section id="mcq">
+<div class="box">
+<h2>MCQ Practice</h2>
+<p>What is the chemical formula of water?</p>
+<button onclick="showAnswer('H2O')">Show Answer</button>
+</div>
+
+<div class="box">
+<p>Which gas is essential for respiration?</p>
+<button onclick="showAnswer('Oxygen')">Show Answer</button>
+</div>
+</section>
+
+<!-- NOTES -->
+<section id="notes">
+<div class="box">
+<h2>Study Notes</h2>
+<p>Short notes on pharmacology, chemistry, and biology will be uploaded here.</p>
+</div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+<div class="box">
+<h2>Research & Articles</h2>
+<p>Read scientific articles and drug mechanism insights.</p>
+</div>
+</section>
+
+<!-- UPDATES -->
+<section id="updates">
+<div class="box">
+<h2>Important Updates</h2>
+<ul>
+<li>New MCQs uploaded</li>
+<li>Exam notifications coming soon</li>
+</ul>
+</div>
+</section>
+
+<!-- DAILY QUIZ -->
+<section id="quiz">
+<div class="box">
+<h2>Daily Quiz</h2>
+<p>What is pH of neutral solution?</p>
+<button onclick="showAnswer('7')">Show Answer</button>
+</div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+<div class="box">
+<h2>Image Gallery</h2>
+<img src="https://via.placeholder.com/400" alt="Science Image">
+</div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos">
+<div class="box">
+<h2>Video Lectures</h2>
+<iframe width="100%" height="300"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+</div>
+</section>
+
+<!-- DOWNLOADS -->
+<section id="downloads">
+<div class="box">
+<h2>Downloads</h2>
+<ul>
+<li><a href="#">Pharmacology Notes PDF</a></li>
+<li><a href="#">MCQ Question Bank</a></li>
+</ul>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<div class="box">
+<h2>Contact</h2>
+<p>Email: drnvasudevareddy@example.com</p>
+<p>For academic collaborations and queries.</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Dr. N Vasudeva Reddy | Science Study Hub</p>
+</footer>
+
+</body>
+</html>
